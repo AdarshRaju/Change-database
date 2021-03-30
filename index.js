@@ -2,7 +2,7 @@ function roll(min, max, floatFlag) {
     let r = Math.random() * (max - min) + min
     return floatFlag ? r : Math.floor(r)
 }
-
+// A random database is created below
 let testPurses = Array(5).fill(0).map(a => {
     return {
         quarters: roll(0, 15),
