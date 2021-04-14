@@ -83,3 +83,7 @@ html, body {
     display: inline-block;
     font-size: 1.2rem;
 }
+
+h1 {
+text-align: center;
+}
